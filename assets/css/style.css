@@ -1,5 +1,18 @@
-h1 {
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main {
     margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 65px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+h4 {
     margin-bottom: 20px;
 }
 
@@ -20,12 +33,6 @@ footer {
 }
 
 /* Portfolio */
-.card {
-  position: relative;
-  float: left;
-  overflow: auto;
-}
-
 .card-title {
     text-align: center;
     padding: 20px;
@@ -38,4 +45,8 @@ footer {
 
 .card-img-top {
     height: 200px;
+}
+
+.card-deck .card {
+    margin-bottom: 20px;
 }
